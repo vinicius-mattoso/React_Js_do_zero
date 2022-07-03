@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Aprenendo JavaScript</title>
+	<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+	<!-- Meu comentário em HTML -->
+	<!-- <h1> Aprendendo JavaScript</h1> -->
+	<!-- Criar um botao que quando clicar vai mexer na tela inteira (por isso window),
+	Depois colocar o href que precisamos queremos direcionar e tudo mais -->
+	<button onclick="window.location.href='contato.html';"> Ir ao contato </button>
+
+	<button onclick="window.location.href = window.location.href"> Atualizar a pag </button>
+	<!-- Quebra de linha -->
+	</br></br>
+	<!-- definindo uma div com uma id para locarlizar ela no futuro -->
+	<div id="area">
+		Bem vindo ....
+	</div>	
+	<button onclick="document.getElementById('area').innerHTML = 'Bem vindo '+prompt('Qual o seu nome?');">  Entrar	</button>
+</body>
+</html>
